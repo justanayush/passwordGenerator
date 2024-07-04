@@ -40,11 +40,11 @@ function App() {
   
   return (
     <>
-    <h1 className='mt-10 text-4xl'>Password Generator</h1>
+    <h1 className='mt-10 text-4xl head'>Password Generator</h1>
     <div className='rounded-lg mx-auto my-5 w-2/5 h-auto bg-gradient-to-r from-slate-900 to-slate-700 shadow-2xl border-2 shadow-yellow-500 border-yellow-300 text-center flex flex-wrap flex-col ali justify-between py-8 '>
 
     <div className='w-auto flex justify-center mb-4 '>
-      <input ref={passwordRef} readOnly value={password} className='text-gray-950 w-80 px-2 py-1 rounded-lg rounded-r-none outline-none' type="text" name="" id="" placeholder='create new password' />
+      <input ref={passwordRef} readOnly value={password} className='font-semibold text-gray-950 w-80 px-2 py-1 rounded-lg rounded-r-none outline-none' type="text" name="" id="" placeholder='create new password' />
       <button onClick={copyPasswordToClipboard}className='bg-black px-2 rounded-lg rounded-l-none hover:bg-blue-500 hover:text-black duration-200'>copy</button>
     </div>
 
